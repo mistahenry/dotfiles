@@ -1,0 +1,25 @@
+# GIT
+alias g='git'
+alias gaa='git add --all'
+
+alias gs='git status'
+
+alias gd='git diff'
+alias gds='git diff --staged'
+
+alias grs='git reset --soft HEAD~1'
+
+alias gp='git push'
+
+alias gcm='git commit -m'
+
+alias gco='git checkout'
+alias gcob='git checkout --branch'
+
+alias gpu='git pull'
+
+# Shell
+alias ll='ls -lG'
+
+# Dotfiles
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
